@@ -1,0 +1,58 @@
+body {
+    background: #fafafa;
+   background-image: url(img/nuvem.jpg);
+   background-repeat: repeat;
+    animation: slideright 600s infinite linear;
+    -webkit-animation: slideright 6000s infinite linear;
+    width:100%;
+    height:100%;
+  }
+ 
+  
+  .dino {
+    position: absolute;
+    bottom: 0;
+    background-image: url(img/sonic.png);
+    width: 60px;
+    height: 60px;
+   background-size: cover;
+  }
+  
+  .cactus {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    bottom: 0;
+    background-image: url(img/dark-sonic.png);
+  }
+  
+  .game-over {
+    text-align: center;
+    color: rgb(240, 11, 11);
+    margin: 50px 0;
+    font-size: 50px;
+    font-family: arial;
+  }
+  
+  @keyframes slideright {
+    from {
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0%;
+    }
+  }
+  
+  .background {
+    position: absolute;
+    bottom: 0px;
+    background-image: url('img/Modelo_Fusion.jpg');
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+    -webkit-animation: slideright 600s infinite linear;
+    width: 100%;
+    height: 200px;
+    
+  }
+  
